@@ -32,4 +32,11 @@ At the end, the minimum number of necessary changes is returned, this being 0 if
 
 In the main function, the user will add from the keyboard the password he wants to be verified.
 
+Main assumptions:
+- if the length of the password <= 3, in adding the minimum 3 characters, an uppercase letter, a lowercase letter and a number will be added
+- if 3 < password length < 6, in the addition of characters, the missing character will be added to lengthen the respective condition, or their number, if it is greater than the difference up to 6
+- if there are 3 identical characters, the one on the right will be replaced, and the next check is made on the next 3 characters.
+
 Thank you. Have a nice day!
+
+
